@@ -1,0 +1,49 @@
+body {
+	background-image: url("../supermarket.jpg");
+	background-size: cover;
+	font-size: 1.5em;
+	list-style-type: none;
+}
+
+.container {
+	width: 20em;
+	margin: 0 auto;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 1em;
+}
+
+.add-here {
+	text-align: center;
+	margin: 25px 0px;
+}
+
+#add-button {
+	background-color: #99FF99;
+}
+
+#grocery-trip, #list {
+	margin-top: 1.5625em;
+}
+
+#list {
+	min-height: 8em;
+	padding-top: 1em;
+}
+
+#shelf, #cart {
+	list-style-type: none;
+	font-size: 1.5em;
+}
+
+#cart {
+	text-decoration: line-through;
+}
+
+#cart input {
+	margin-right: .625em;
+}
+
+.glypihicon-ok-circle {
+	background-color: green;
+}

@@ -27,7 +27,7 @@ body {
 }
 
 #list {
-	min-height: 8em;
+	min-height: 10em;
 	padding-top: 1em;
 }
 
@@ -46,4 +46,8 @@ body {
 
 .glypihicon-ok-circle {
 	background-color: green;
+}
+
+#clear {
+	margin-bottom: 1em;
 }

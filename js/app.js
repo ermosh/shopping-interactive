@@ -1,4 +1,4 @@
-$('document').ready(function () {
+$(document).ready(function () {
 
 	function deleteItem() {
 		$(this).parent().remove()
@@ -35,6 +35,7 @@ $('document').ready(function () {
 		$('#cart').empty();
 	});
 
+	// Instead of document, bind the event to .btn-danger and .btn-success
 	$(document).on('click', '.btn-danger', deleteItem);
 
 	$(document).on('click', '.btn-success', addItem);
